@@ -20,3 +20,6 @@ test_sentence_new = test_sentence_first + test_sentence[5:]
 print(f'test f-string {test_number}')
 
 print(test_sentence)
+
+test_sentence_replace = test_sentence.replace("Hello", "Good bye")
+print(test_sentence_replace)
