@@ -1,0 +1,106 @@
+¿Cuáles son los tipos de Datos en Python?
+
+`int` (integer)
+
+age = 25
+count = 100
+
+
+'float` (floating-point)
+
+pi = 3.14
+temperature = 98.6
+
+
+`str` (string)
+
+name = "Alice"
+message = 'Hello, World!'
+
+
+`bool` (boolean)
+
+is_student = True
+is_adult = False
+
+
+`list`
+
+numbers = [1, 2, 3, 4, 5]
+fruits = ['appel', 'banana', 'pear']
+
+
+`tuple`
+
+coordinates = (10, 20)
+rgb_color = (255, 0, 0)
+
+
+ `dict` (dictionary)
+
+person = {'name': 'Alice', 'age': 30}
+grades = {'math': 90, 'english': 85, 'history': 92}
+
+`set`
+
+colors = {'red', 'green', 'blue'}
+fruits_set = set(['appel', 'banana', 'pear'])
+
+
+
+¿Qué tipo de convención de nomenclatura deberíamos 
+utilizar para las variables en Python?
+
+Los nombres de las variables deben estar en minúsculas 
+y las palabras separadas por guiones bajos.
+
+test_sentence
+
+
+
+¿Qué es un Heredoc en Python?
+
+Heredoc es una forma de representar un bloque de texto en código. 
+Le permite definir cadenas multilínea sin necesidad de caracteres de escape.
+
+"""
+Nullam id dolor id nibh ultricies vehicula ut id elit. 
+Nullam quis risus eget urna mollis ornare vel eu leo.
+Vestibulum id ligula porta felis euismod semper. 
+Cum sociis natoque penatibus et magnis dis parturient 
+montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in.
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+"""
+
+
+¿Qué es una interpolación de cadenas?
+
+La interpolación de cadenas es una técnica de programación que le permite
+entretejer valores variables directamente en texto.
+Esta es una forma de crear un mensaje insertando datos sobre la marcha, 
+lo que hace que el código sea más legible y conveniente.
+
+name = "Maria"
+age = 30
+message = f"Hello, {name}. You are {age} years old."
+print(message)
+
+
+¿Cuándo deberíamos usar comentarios en Python?
+
+Los comentarios son necesarios exclusivamente para personas, para que el programador 
+deje notas para él y para otros programadores. Con su ayuda, añaden explicaciones 
+de cómo funciona el código, qué errores hay que corregir o no olvidar añadir algo más adelante.
+
+# For Bob!
+# dont touch!
+print('I am here') # TODO: Edit
+
+
+
+¿Cuáles son las diferencias entre aplicaciones monolíticas y de microservicios?
+
+En una arquitectura monolítica, todos los componentes se combinan en un todo, mientras que en 
+una arquitectura de microservicios, los componentes están separados.
+
+
